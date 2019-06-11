@@ -1,6 +1,6 @@
 package array;
 
-
+//使用两种方法来解决此题，暴力和二分
 class $1011_CapacityToShipPackagesWithinDDays {
     /**
      * 由题意可知，最低运载能力一定大于最重包裹重量和平均包裹重量
