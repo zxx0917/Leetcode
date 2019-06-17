@@ -17,6 +17,7 @@
 - [56.Merge Intervals](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2456_MergeIntervals.java)
 - [74.Search A 2D Matrix](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2474_SearchA2DMatrix.java)
 - [79.Word Search](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2479_WordSearch.java)
+- [81.Searchin Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2481_SearchinRotatedSortedArrayII.java)
 - [162.Find Peak Element](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24162_FindPeakElement.java)
 - [209.Minimum Size Subarray Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24209_MinimumSizeSubarraySum.java)
 - [277.Find The Celebrity](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24277_FindTheCelebrity.java)
