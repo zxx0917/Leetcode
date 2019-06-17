@@ -23,8 +23,6 @@ public class $33_SearchinRotatedSortedArray {
         }
 
         //判断Target在左数组还是右数组
-        int split = target > nums[nums.length - 1] ? left : right;
-
         if (target > nums[nums.length - 1]) {
             return binarySearch(nums, 0, left, target);
         } else {
