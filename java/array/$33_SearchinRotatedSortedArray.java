@@ -23,10 +23,11 @@ public class $33_SearchinRotatedSortedArray {
         }
 
         //判断Target在左数组还是右数组
+        //判断Target在左数组还是右数组
         if (target > nums[nums.length - 1]) {
-            return binarySearch(nums, 0, left, target);
+            return binarySearch(nums, 0, left-1, target);
         } else {
-            return binarySearch(nums, right, nums.length - 1, target);
+            return binarySearch(nums, left, nums.length - 1, target);
         }
 
     }
