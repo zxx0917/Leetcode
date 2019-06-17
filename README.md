@@ -12,6 +12,7 @@
 - [18.4 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2418_4Sum.java)
 - [33.Searching Rotated Sorted Array](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2433_SearchinRotatedSortedArray.java)
 - [34.Find First and Last Position of Elementin Sorted Array](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2434_FindFirstandLastPositionofElementinSortedArray.java)
+- [54.Spiral Matrix](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2454_SpiralMatrix.java)
 - [55.Jump Game](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2455_JumpGame.java)
 - [56.Merge Intervals](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2456_MergeIntervals.java)
 - [74.Search A 2D Matrix](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2474_SearchA2DMatrix.java)
@@ -29,4 +30,3 @@
 - [1007.Minimum Domino Rotations For Equal Row](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%241007_MinimumDominoRotationsForEqualRow.java)
 - [1011.Capacity To Ship Packages Within D Days](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%241011_CapacityToShipPackagesWithinDDays.java)
 - [1014.Best Sightseeing Pair](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%241014_BestSightseeingPair.java)
-- [54.Spiral Matrix](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2454_SpiralMatrix.java)
