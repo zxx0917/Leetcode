@@ -19,6 +19,7 @@ public class $163_MissingRanges {
         StringBuilder sb = new StringBuilder();
         long lower = l, upper = u;
         for (int i = 0; i < nums.length; i++) {
+            //去重
             if (i > 0 && nums[i - 1] == nums[i]) continue;
 
             if (nums[i] - lower > 1) {
@@ -30,7 +31,7 @@ public class $163_MissingRanges {
             //注意转换为long
             lower = (long) nums[i] + 1;
         }
-
+        //处理最后一个可能区间
         if (lower < upper) {
             res.add(sb.append(lower).append("->").append(upper).toString());
         } else if (lower == upper) {
