@@ -20,6 +20,7 @@
 - [79.Word Search](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2479_WordSearch.java)
 - [81.Searchin Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2481_SearchinRotatedSortedArrayII.java)
 - [162.Find Peak Element](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24162_FindPeakElement.java)
+- [163.Missing Ranges](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/$163_MissingRanges.java)
 - [209.Minimum Size Subarray Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24209_MinimumSizeSubarraySum.java)
 - [277.Find The Celebrity](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24277_FindTheCelebrity.java)
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
