@@ -7,8 +7,10 @@
 # 已解题目 #
 ## 按分类 ##
 - [数组](https://github.com/JuiceZhou/Leetcode/tree/master/java/array)
+- [哈希表](https://github.com/JuiceZhou/Leetcode/tree/master/java/hashmap)
 
 ## 按题号 ##
+- [3.Longes Substring Without Repeating Characters](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%243_LongesSubstringWithoutRepeatingCharacters.java)
 - [15.3 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2415_3Sum.java)
 - [18.4 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2418_4Sum.java)
 - [33.Searching Rotated Sorted Array](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2433_SearchinRotatedSortedArray.java)
