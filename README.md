@@ -37,6 +37,7 @@
 - [915.Partition Array into Disjoint Intervals](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24915_PartitionArrayintoDisjointIntervals.java)
 - [926.Flip String To Monotone Increasing](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24926_FlipStringToMonotoneIncreasing.java)
 - [945.Minimum Increment to Make Array Unique](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24945_MinimumIncrementtoMakeArrayUnique.java)
+- [961. N-Repeated Element in Size 2N Array](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24961_NRepeatedElementinSize2NArray.java)
 - [962.Maximum Width Ramp](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24962_MaximumWidthRamp.java)
 - [1007.Minimum Domino Rotations For Equal Row](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%241007_MinimumDominoRotationsForEqualRow.java)
 - [1011.Capacity To Ship Packages Within D Days](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%241011_CapacityToShipPackagesWithinDDays.java)
