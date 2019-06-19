@@ -27,6 +27,7 @@
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
 - [670.Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
 - [729.My Calendar I](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24729_MyCalendarI.java)
+- [825.Friends Of Appropriate Ages](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24825_FriendsOfAppropriateAges.java)
 - [900.RLEIterator](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24900_RLEIterator.java)
 - [915.Partition Array into Disjoint Intervals](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24915_PartitionArrayintoDisjointIntervals.java)
 - [926.Flip String To Monotone Increasing](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24926_FlipStringToMonotoneIncreasing.java)
