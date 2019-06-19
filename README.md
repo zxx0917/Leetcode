@@ -10,6 +10,7 @@
 - [哈希表](https://github.com/JuiceZhou/Leetcode/tree/master/java/hashmap)
 
 ## 按题号 ##
+- [1.TwoSum](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%241_TwoSum.java)
 - [3.Longes Substring Without Repeating Characters](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%243_LongesSubstringWithoutRepeatingCharacters.java)
 - [15.3 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2415_3Sum.java)
 - [18.4 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2418_4Sum.java)
