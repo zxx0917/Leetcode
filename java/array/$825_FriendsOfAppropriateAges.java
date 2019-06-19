@@ -26,8 +26,10 @@ public class $_FriendsOfAppropriateAges {
                     break;
                 else{
                     if(i == j){
+                        //同龄人
                         res += people[i] * (people[j]-1);
                     }else{
+                        //非同龄人
                         res += people[i] * people[j];
                     }
                 }
