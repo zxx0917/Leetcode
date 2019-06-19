@@ -10,7 +10,7 @@
 - [哈希表](https://github.com/JuiceZhou/Leetcode/tree/master/java/hashmap)
 
 ## 按题号 ##
-- [1.TwoSum](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%241_TwoSum.java)
+- [1.Two Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%241_TwoSum.java)
 - [3.Longes Substring Without Repeating Characters](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%243_LongesSubstringWithoutRepeatingCharacters.java)
 - [15.3 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2415_3Sum.java)
 - [18.4 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2418_4Sum.java)
@@ -29,6 +29,7 @@
 - [277.Find The Celebrity](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24277_FindTheCelebrity.java)
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
 - [670.Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
+- [771.Jewels And Stones](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24771_JewelsAndStones.java)
 - [729.My Calendar I](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24729_MyCalendarI.java)
 - [825.Friends Of Appropriate Ages](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24825_FriendsOfAppropriateAges.java)
 - [900.RLEIterator](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24900_RLEIterator.java)
