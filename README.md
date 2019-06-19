@@ -19,6 +19,7 @@
 - [74.Search A 2D Matrix](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2474_SearchA2DMatrix.java)
 - [79.Word Search](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2479_WordSearch.java)
 - [81.Searchin Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2481_SearchinRotatedSortedArrayII.java)
+- [154.Find Minimum in Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24154_FindMinimuminRotatedSortedArrayII.java)
 - [162.Find Peak Element](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24162_FindPeakElement.java)
 - [163.Missing Ranges](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/$163_MissingRanges.java)
 - [209.Minimum Size Subarray Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24209_MinimumSizeSubarraySum.java)
