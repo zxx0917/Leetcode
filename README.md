@@ -32,6 +32,7 @@
 - [349.Intersection of Two Arrays](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24349_IntersectionOfTwoArrays.java)
 - [500.Keyboard Row](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24500_KeyboardRow.java)
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
+- [575.Distribute Candies](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24575_DistributeCandies.java)
 - [670.Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
 - [771.Jewels And Stones](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24771_JewelsAndStones.java)
 - [729.My Calendar I](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24729_MyCalendarI.java)
