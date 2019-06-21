@@ -3,6 +3,18 @@ package array;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+*这里最短完整词的概念为单词中出现了所有licensePlate中出现的字符，且出现次数大于等于licensePlate中出现的次数，如"Grc2131"，"according"也是满足条件的完整词。
+
+分为三步：
+
+1.使用数组记录licensePlate出现的字符的数目
+
+2.对words进行长度排序，保证短的单词在前面
+
+3.逐个获取每个word的字符出现次数，用数组保存，然后比较license中出现的字符次数和word中出现的字符次数，得到结果。
+
+*/
 public class $748_ShortestCompletingWord {
     public String shortestCompletingWord(String licensePlate, String[] words) {
         //1.先对单词进行排序，使其按长度排序
