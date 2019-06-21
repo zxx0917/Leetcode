@@ -28,6 +28,7 @@
 - [163.Missing Ranges](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/$163_MissingRanges.java)
 - [202.Happy Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24202_HappyNumber.java)
 - [209.Minimum Size Subarray Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24209_MinimumSizeSubarraySum.java)
+- [242.Valid Anagram](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24242_ValidAnagram.java)
 - [266. Palindrome Permutation](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24266_PalindromePermutation.java)
 - [277.Find The Celebrity](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24277_FindTheCelebrity.java)
 - [349.Intersection of Two Arrays](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24349_IntersectionOfTwoArrays.java)
