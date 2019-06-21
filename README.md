@@ -26,6 +26,7 @@
 - [154.Find Minimum in Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24154_FindMinimuminRotatedSortedArrayII.java)
 - [162.Find Peak Element](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24162_FindPeakElement.java)
 - [163.Missing Ranges](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/$163_MissingRanges.java)
+- [202.Happy Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24202_HappyNumber.java)
 - [209.Minimum Size Subarray Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24209_MinimumSizeSubarraySum.java)
 - [266. Palindrome Permutation](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24266_PalindromePermutation.java)
 - [277.Find The Celebrity](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24277_FindTheCelebrity.java)
