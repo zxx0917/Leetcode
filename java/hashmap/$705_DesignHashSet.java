@@ -1,33 +1,50 @@
 package array;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class $705_DesignHashSet {
 }
 
 /**
- * 因为题目已经给出数字范围是[1,1000000]，并且规定只需要实现HashSet的功能，
- * 所以可以建立一个boolean数组，已经添加的元素对应的boolean值变为true
+ * 使用拉链法实现，每个key对应一个List，用于储存对应的Value
  */
 class MyHashSet {
-    boolean[] flags;
-    /** Initialize your data structure here. */
+    List<LinkedList<Integer>> list;
+    int bucketNum = 1000;
+
+    /**
+     * Initialize your data structure here.
+     */
     public MyHashSet() {
-        flags = new boolean[1000001];
-    }
-
-    public void add(int key) {
-        if(!flags[key])
-            flags[key] = true;
-    }
-
-    public void remove(int key) {
-        if(flags[key]){
-            flags[key] = false;
+        list = new ArrayList<>();
+        for (int i = 0; i < bucketNum; i++) {
+            list.add(new LinkedList<>());
         }
     }
 
-    /** Returns true if this set contains the specified element */
+    public void add(int key) {
+        if (!contains(key)) {
+            list.get(key % bucketNum).add(key);
+        }
+    }
+
+    public void remove(int key) {
+        if(contains(key)){
+            list.get(key % bucketNum).removeFirstOccurrence(key);
+        }
+    }
+
+    /**
+     * Returns true if this set contains the specified element
+     */
     public boolean contains(int key) {
-        return flags[key];
+        LinkedList<Integer> bucket = list.get(key % bucketNum);
+        for (int num : bucket) {
+            if (num == key)
+                return true;
+        }
+        return false;
     }
 }
 
