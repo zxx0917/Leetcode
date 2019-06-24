@@ -8,6 +8,7 @@
 ## 按分类 ##
 - [数组](https://github.com/JuiceZhou/Leetcode/tree/master/java/array)
 - [哈希表](https://github.com/JuiceZhou/Leetcode/tree/master/java/hashmap)
+- [树](https://github.com/JuiceZhou/Leetcode/tree/master/java/tree)
 
 ## 按题号 ##
 - [1.Two Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%241_TwoSum.java)
@@ -22,6 +23,7 @@
 - [74.Search A 2D Matrix](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2474_SearchA2DMatrix.java)
 - [79.Word Search](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2479_WordSearch.java)
 - [81.Searchin Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2481_SearchinRotatedSortedArrayII.java)
+- [94. Binary Tree Inorder Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%2494_BinaryTreeInorderTraversal.java)
 - [136. Single Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24136_SingleNumber.java)
 - [154.Find Minimum in Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24154_FindMinimuminRotatedSortedArrayII.java)
 - [159. Longest Substring with At Most Two Distinct Characters](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24159_LongestSubstringWithAtMostTwoDistinctCharacters.java)
