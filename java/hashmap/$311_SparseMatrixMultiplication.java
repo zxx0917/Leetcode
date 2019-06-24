@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 矩阵AB结果集的row和column为A的row和B的column。
+ * 矩阵AB结果集的行数和列数分别为A的行数和B的列数
  * 因为稀疏矩阵的0较多，创建两个Set来记录A全为0的行和B全为0的列，
  * 如果碰到全0行或者全0列，计算时当前元素为0，所以遍历时遇到直接continue。
  */
