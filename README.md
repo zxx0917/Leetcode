@@ -24,6 +24,7 @@
 - [81.Searchin Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2481_SearchinRotatedSortedArrayII.java)
 - [136. Single Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24136_SingleNumber.java)
 - [154.Find Minimum in Rotated Sorted Array II](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24154_FindMinimuminRotatedSortedArrayII.java)
+- [159. Longest Substring with At Most Two Distinct Characters](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24159_LongestSubstringWithAtMostTwoDistinctCharacters.java)
 - [162.Find Peak Element](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24162_FindPeakElement.java)
 - [163.Missing Ranges](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/$163_MissingRanges.java)
 - [202.Happy Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24202_HappyNumber.java)
