@@ -50,6 +50,7 @@
 - [575.Distribute Candies](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24575_DistributeCandies.java)
 - [609.Find Duplicate File in System](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24609_FindDuplicateFileinSystem.java)
 - [670.Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
+- [676.Implement Magic Dictionary](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24676_ImplementMagicDictionary.java)
 - [748.Shortest Completing Word](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24748_ShortestCompletingWord.java)
 - [771.Jewels And Stones](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24771_JewelsAndStones.java)
 - [729.My Calendar I](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24729_MyCalendarI.java)
