@@ -41,6 +41,7 @@
 - [311. Sparse Matrix Multiplication](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24311_SparseMatrixMultiplication.java)
 - [347. Top K Frequent Elements](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24347_TopKFrequentElements.java)
 - [349.Intersection of Two Arrays](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24349_IntersectionOfTwoArrays.java)
+- [359.Logger Rate Limiter](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24359_LoggerRateLimiter.java)
 - [389.Find The Difference](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24389_FindTheDifference.java)
 - [451. Sort Characters By Frequency](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24451_SortCharactersByFrequency.java)
 - [500.Keyboard Row](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24500_KeyboardRow.java)
