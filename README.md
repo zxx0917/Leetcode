@@ -31,6 +31,7 @@
 - [159. Longest Substring with At Most Two Distinct Characters](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24159_LongestSubstringWithAtMostTwoDistinctCharacters.java)
 - [162.Find Peak Element](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24162_FindPeakElement.java)
 - [163.Missing Ranges](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/$163_MissingRanges.java)
+- [187.Repeated DNA Sequences](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24187_RepeatedDNASequences.java)
 - [202.Happy Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24202_HappyNumber.java)
 - [204.Count Primes](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24204_CountPrimes.java)
 - [209.Minimum Size Subarray Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24209_MinimumSizeSubarraySum.java)
