@@ -44,6 +44,7 @@
 - [389.Find The Difference](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24389_FindTheDifference.java)
 - [451. Sort Characters By Frequency](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24451_SortCharactersByFrequency.java)
 - [500.Keyboard Row](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24500_KeyboardRow.java)
+- [535.Encode and Decode TinyURL](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24535_EncodeandDecodeTinyURL.java)
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
 - [575.Distribute Candies](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24575_DistributeCandies.java)
 - [670.Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
