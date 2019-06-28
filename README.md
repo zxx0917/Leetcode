@@ -43,6 +43,7 @@
 - [249.Group Shifted Strings](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24249_GroupShiftedStrings.java)
 - [266. Palindrome Permutation](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24266_PalindromePermutation.java)
 - [277.Find The Celebrity](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24277_FindTheCelebrity.java)
+- [299.Bulls And Cows](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24299_BullsAndCows.java)
 - [311. Sparse Matrix Multiplication](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24311_SparseMatrixMultiplication.java)
 - [347. Top K Frequent Elements](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24347_TopKFrequentElements.java)
 - [349.Intersection of Two Arrays](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24349_IntersectionOfTwoArrays.java)
