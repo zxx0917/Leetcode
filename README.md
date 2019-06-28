@@ -54,6 +54,7 @@
 - [463.Island Perimeter](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24463_IslandPerimeter.java)
 - [500.Keyboard Row](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24500_KeyboardRow.java)
 - [535.Encode and Decode TinyURL](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24535_EncodeandDecodeTinyURL.java)
+- [554.Brick Wall](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/$554_BrickWall.java)
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
 - [575.Distribute Candies](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24575_DistributeCandies.java)
 - [599.Minimum Index Sum of Two Lists](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24599_MinimumIndexSumofTwoLists.java)
