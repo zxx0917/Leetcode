@@ -50,6 +50,7 @@
 - [359.Logger Rate Limiter](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24359_LoggerRateLimiter.java)
 - [389.Find The Difference](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24389_FindTheDifference.java)
 - [409.Longest Palindrome](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24409_LongestPalindrome.java)
+- [447.Number of Boomerangs](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24447_NumberofBoomerangs.java)
 - [451. Sort Characters By Frequency](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24451_SortCharactersByFrequency.java)
 - [454.4Sum II](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24454_4SumII.java)
 - [463.Island Perimeter](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24463_IslandPerimeter.java)
