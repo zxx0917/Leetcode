@@ -34,6 +34,7 @@
 - [187.Repeated DNA Sequences](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24187_RepeatedDNASequences.java)
 - [202.Happy Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24202_HappyNumber.java)
 - [204.Count Primes](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24204_CountPrimes.java)
+- [205.Isomorphic Strings](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24205_IsomorphicStrings.java)
 - [209.Minimum Size Subarray Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24209_MinimumSizeSubarraySum.java)
 - [242.Valid Anagram](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24242_ValidAnagram.java)
 - [244.Shortest Word Distance II](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24244_ShortestWordDistanceII.java)
