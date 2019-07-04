@@ -1,4 +1,4 @@
-public class $2_TwoSum {
+public class $2_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode fakeHead = new ListNode(0), cur = fakeHead;
         int carry = 0;
