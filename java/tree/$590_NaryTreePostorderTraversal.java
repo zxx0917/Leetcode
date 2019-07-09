@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class $590_NaryTreePostorderTraversal {
-    //遍历：
+    //递归：
     public List<Integer> postorder1(Node root) {
         List<Integer> res = new ArrayList<>();
         if(root == null) return res;
