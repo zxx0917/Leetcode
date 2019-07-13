@@ -8,6 +8,7 @@ public class $333_LargestBSTSubtree {
     public int largestBSTSubtree(TreeNode root) {
         //深度优先搜索 判定每个子树是否是BST
         if (root == null) return 0;
+        //每次判定是否是BST之前要初始化变量
         preVal = Integer.MIN_VALUE;
         if (isBST(root)) {
             res = Math.max(res, getCount(root));
