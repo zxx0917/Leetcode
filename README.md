@@ -87,6 +87,7 @@
 - [226.Invert Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24226_InvertBinaryTree.java)
 - [230. Kth Smallest Element in a BST](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24230_KthSmallestElementInABST.java)
 - [234.Palindrome Linked List](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/%24234_PalindromeLinkedList.java)
+- [235.Lowest Common Ancestor of a Binary Search Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24235_LowestCommonAncestorOfABinarySearchTree.java)
 - [237.Delete Node In A LinkedList](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/%24237_DeleteNodeInALinkedList.java)
 - [242.Valid Anagram](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24242_ValidAnagram.java)
 - [244.Shortest Word Distance II](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24244_ShortestWordDistanceII.java)
