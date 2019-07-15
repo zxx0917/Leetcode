@@ -19,7 +19,7 @@ public class $450_DeleteNodeInABST {
                     parent = node;
                     node = node.left;
                 }
-                //在左子树上删除node节点
+                //在右子树上删除node节点
                 if (parent.left == node) parent.left = node.right;
                 if (parent.right == node) parent.right = node.right;
                 //将node节点放在key节点位置上
