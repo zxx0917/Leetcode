@@ -58,6 +58,7 @@
 - [114.Flatten Binary Tree To Linked List](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24114_FlattenBinaryTreeToLinkedList.java)
 - [116.Populating Next Right Pointers in Each Node](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24116_PopulatingNextRightPointersInEachNode.java)
 - [117.Populating Next Right Pointers in Each Node II](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24117_PopulatingNextRightPointersInEachNodeII.java)
+- [124.Binary Tree Maximum Path Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/$124_BinaryTreeMaximumPathSum.java)
 - [129.Sum Root to Leaf Numbers](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24129_SumRootToLeafNumbers.java)
 - [136. Single Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24136_SingleNumber.java)
 - [141.Linked List Cycle](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/%24141_LinkedListCycle.java)
