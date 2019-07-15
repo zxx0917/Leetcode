@@ -1,5 +1,4 @@
 class Solution {
-    //两个dfs，一个用来获取树的节点，一个用来判断当前子树的最大路径和，注意这里不要求路径到达叶子节点，所以单节点也有可能是最大路径。
     int res = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
