@@ -138,6 +138,8 @@
 - [554.Brick Wall](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/$554_BrickWall.java)
 - [559.Maximum Depth of N-ary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24559_MaximumDepthofNaryTree.java)
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
+- [563.Binary Tree Tilt](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24563_BinaryTreeTilt.java)
+- [572.Subtree of Another Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24572_SubtreeofAnotherTree.java)
 - [575.Distribute Candies](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24575_DistributeCandies.java)
 - [589. N-ary Tree Preorder Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24589_NaryTreePreorderTraversal.java)
 - [590. N-ary Tree Postorder Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/$590_NaryTreePostorderTraversal.java)
