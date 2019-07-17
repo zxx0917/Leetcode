@@ -139,6 +139,7 @@
 - [535.Encode and Decode TinyURL](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24535_EncodeandDecodeTinyURL.java)
 - [538.Convert BST to Greater Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24538_ConvertBSTtoGreaterTree.java)
 - [543.Diameter of Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24543_DiameterofBinaryTree.java)
+- [549.Binary Tree Longest Consecutive Sequence II](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24549_BinaryTreeLongestConsecutiveSequenceII.java)
 - [554.Brick Wall](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/$554_BrickWall.java)
 - [559.Maximum Depth of N-ary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24559_MaximumDepthofNaryTree.java)
 - [560.Subarray Sum Equals K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24560_SubarraySumEqualsK.java)
