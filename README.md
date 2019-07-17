@@ -157,7 +157,7 @@
 - [652.Find Duplicate Subtrees](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24652_FindDuplicateSubtrees.java)
 - [654.Maximum Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24654_MaximumBinaryTree.java)
 - [669.Trim a Binary Search Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24669_TrimaBinarySearchTree.java)
-- [670. Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
+- [670.Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
 - [671.Second Minimum Node In a Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24671_SecondMinimumNodeInaBinaryTree.java)
 - [676.Implement Magic Dictionary](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24676_ImplementMagicDictionary.java)
 - [690.Employee Importance](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24690_EmployeeImportance.java)
