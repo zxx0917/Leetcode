@@ -202,6 +202,7 @@
 - [962.Maximum Width Ramp](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24962_MaximumWidthRamp.java)
 - [965.Univalued Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24965_UnivaluedBinaryTree.java)
 - [968.Binary Tree Cameras](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24968_BinaryTreeCameras.java)
+- [979.Distribute Coins in Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24979_DistributeCoinsinBinaryTree.java)
 - [988.Smallest String Starting From Leaf](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24988_SmallestStringStartingFromLeaf.java)
 - [993.Cousins in Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24993_CousinsinBinaryTree.java)
 - [1007.Minimum Domino Rotations For Equal Row](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%241007_MinimumDominoRotationsForEqualRow.java) 
@@ -212,3 +213,4 @@
 - [1026.Maximum Difference Between Node and Ancestor](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%241026_MaximumDifferenceBetweenNodeandAncestor.java)
 - [1028.Recover a Tree From Preorder Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%241028_RecoveraTreeFromPreorderTraversal.java)
 - [1078.Occurrences After Bigram](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%241078_OccurrencesAfterBigram.java)
+- [1120.Maximum Average Subtree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%241120_MaximumAverageSubtree.java)
