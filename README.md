@@ -161,6 +161,8 @@
 - [648.Word Replace](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24648_WordReplace.java)
 - [652.Find Duplicate Subtrees](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24652_FindDuplicateSubtrees.java)
 - [654.Maximum Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24654_MaximumBinaryTree.java)
+- [655.Print Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24655_PrintBinaryTree.java)
+- [662.Maximum Width of Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24662_MaximumWidthofBinaryTree.java)
 - [666.Path Sum IV](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24666_PathSumIV.java)
 - [669.Trim a Binary Search Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24669_TrimaBinarySearchTree.java)
 - [670.Maximum Swap](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%24670_MaximumSwap.java)
