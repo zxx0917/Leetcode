@@ -26,8 +26,8 @@ public class $117_PopulatingNextRightPointersInEachNodeII {
             root.right.next = findLeftChild(root);
 
         //递归
-        connect(root.left);
         connect(root.right);
+        connect(root.left);
         return root;
     }
 
