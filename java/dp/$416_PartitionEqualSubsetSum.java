@@ -31,6 +31,33 @@ class Solution {
 }
 
 
+//优化为一维数组：
+class Solution {
+    public boolean canPartition(int[] nums) {
+        int len = nums.length, sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        //为奇数，直接返回
+        if ((sum & 1) == 1) return false;
+        sum /= 2;
+        boolean[] dp = new boolean[sum + 1];
+        //初始化
+        for (int i = 1; i <= sum; i++) {
+            if (nums[0] == i) {
+                dp[i] = true;
+            }
+        }
+
+        //DP
+        for (int i = 1; i < len; i++) {
+            for (int j = sum; j >= nums[i]; j--) {
+                dp[j] = dp[j] || dp[j - nums[i]];
+            }
+        }
+        return dp[sum];
+    }
+}
 
 public class $416_PartitionEqualSubsetSum {
 }
