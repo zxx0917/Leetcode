@@ -31,7 +31,7 @@ class Solution {
 }
 
 
-//优化为一维数组：
+
 class Solution {
     public boolean canPartition(int[] nums) {
         int len = nums.length, sum = 0;
@@ -43,14 +43,9 @@ class Solution {
         sum /= 2;
         boolean[] dp = new boolean[sum + 1];
         //初始化
-        for (int i = 1; i <= sum; i++) {
-            if (nums[0] == i) {
-                dp[i] = true;
-            }
-        }
-
+        dp[0] = true;
         //DP
-        for (int i = 1; i < len; i++) {
+        for (int i = 0; i < len; i++) {
             for (int j = sum; j >= nums[i]; j--) {
                 dp[j] = dp[j] || dp[j - nums[i]];
             }
