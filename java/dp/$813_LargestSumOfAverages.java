@@ -1,6 +1,6 @@
 /**
  * 状态：dp[i][k]表示前i个数分割为k组的最大分数
- * 状态转移方程：从i-1开始，找到j，和A[i]组成新的一组，使得dp[i][k]最大，dp[i][k]=Math.max(dp[j][k-1]+sum(i~j)/(i-j+1),dp[i][k])
+ * 状态转移方程：从i-1开始，找到j，和A[i]组成新的一组，使得dp[i][k]最大，dp[i][k]=Math.max(dp[j][k-1]+sum(i~j)/(i-j),dp[i][k])
  * 初始化：当k=1，是dp[i][1]=第一个数到第i个数之和/i
  * 结果：返回dp[A.length][K]
  */
