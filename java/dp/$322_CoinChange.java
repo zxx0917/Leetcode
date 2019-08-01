@@ -1,8 +1,9 @@
 import java.util.Arrays;
 
+
 /**
- * dp[j]表示达到金额j的最小硬币个数，有两种情况，硬币或者不取
- * dp[j]=Math.min(dp[j],dp[j-coins[i]]+1)，其中coins[i] < j
+ * dp[i]表示凑成金额i需要的最少硬币数，对于每个硬币，可以取也可以不取，
+ * 如果取的话，dp[i]=dp[i-coin]+1，如果不取，最少硬币数不变，dp[i]=dp[i]，所以dp[i]=Math.min(dp[i],dp[i-coin]+1)
  */
 class Solution {
     public int coinChange(int[] coins, int amount) {
