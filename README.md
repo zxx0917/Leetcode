@@ -19,6 +19,7 @@
 - [3.Longes Substring Without Repeating Characters](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%243_LongesSubstringWithoutRepeatingCharacters.java)
 - [5.Longest Palindromic Substring](https://github.com/JuiceZhou/Leetcode/blob/master/java/dp/$5_LongestPalindromicSubstring.java)
 - [10.Regular Expression Matching](https://github.com/JuiceZhou/Leetcode/blob/master/java/dp/%2410_RegularExpressionMatching.java)
+- [13.Roman to Integer](https://github.com/JuiceZhou/Leetcode/blob/master/java/string/%2413_RomanToInteger.java)
 - [15.3 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2415_3Sum.java)
 - [18.4 Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2418_4Sum.java)
 - [19.Remove Nth Node From End of List](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/%2419_RemoveNthNodeFromEndofList.java)
