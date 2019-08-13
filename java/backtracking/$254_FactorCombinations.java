@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+* 使用回溯算法，从2开始计算因子，这里注意需要去重，如对于12，其中一个因子集合为2,2,3，还有一个重复的集合为2,3,2，所以加入的因子必须大于等于集合中最后一个因子
+*/
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
 
