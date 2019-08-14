@@ -1,35 +1,41 @@
-package array;
-
 /**
- * 该题要求时间复杂度为O(logN)，且数据已经排好序，所以优先考虑二分法。
- * 使用二分法找到target在数组中的一个位置，然后前后搜索，直至找到所有target
+ * 因为题目要求时间复杂度为O(logN)，所以需要使用二分查找来获取目标值的上下界
+ * 这里推荐大神的题解：https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-xiang-jie-by-labuladong/
+ * 解释得很清楚。
  */
-public class $34_FindFirstandLastPositionofElementinSortedArray {
+class Solution {
     public int[] searchRange(int[] nums, int target) {
-        //二分法找到一个target在数组中的位置
         if (nums.length == 0) return new int[]{-1, -1};
-        int left = 0, right = nums.length, index = -1;
+        int[] res = new int[2];
+        //首先找到target的第一个位置
+        int left = 0, right = nums.length;
         while (left < right) {
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) {
-                index = mid;
-                break;
+                right = mid;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
             } else if (nums[mid] > target) {
                 right = mid;
-            } else {
-                left = mid + 1;
             }
         }
-        if (index == -1) return new int[]{-1, -1};
-        //从当前元素开始左右搜索相同元素
-        int start = index, end = index;
-        while (end + 1 < nums.length && nums[end + 1] == target) {
-            end++;
+        //判断数组中是否有target存在，如果没有则直接返回
+        if (left == nums.length || nums[left] != target) return new int[]{-1, -1};
+        res[0] = left;
+        //再一次二分查找，获取target的最后一个位置
+        left = 0;
+        right = nums.length;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                left = mid + 1;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid;
+            }
         }
-        while (start - 1 >= 0 && nums[start - 1] == target) {
-            start--;
-        }
-
-        return new int[]{start, end};
+        res[1] = left - 1;
+        return res;
     }
 }
