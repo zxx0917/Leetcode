@@ -43,6 +43,7 @@
 - [46.Permutations](https://github.com/JuiceZhou/Leetcode/blob/master/java/backtracking/%2446_Permutations.java)
 - [47.Permutations II](https://github.com/JuiceZhou/Leetcode/blob/master/java/backtracking/%2447_PermutationsII.java)
 - [49.Group Anagrams](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%2449_GroupAnagrams.java)
+- [50.pow(x,n)]()
 - [51.N-Queens](https://github.com/JuiceZhou/Leetcode/blob/master/java/backtracking/%2451_N_Queens.java)
 - [52.N-Queens II](https://github.com/JuiceZhou/Leetcode/blob/master/java/backtracking/%2452_N_QueensII.java)
 - [53.Maximum Subarray](https://github.com/JuiceZhou/Leetcode/blob/master/java/dp/%2453_MaximumSubarray.java)
