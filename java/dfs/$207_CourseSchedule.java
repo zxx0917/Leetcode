@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 使用拓扑排序，如果输入为：[[1,0],[0,1]]，则有向图方向为1<-0，0<-1，
  * 即prerequisites[0][1]为优先条件，prerequisites[0][0]为后置条件。
- * 具体拓扑排序解释和算法模板见：
+ * 具体拓扑排序解释和算法模板见：https://blog.csdn.net/zhou373986278/article/details/100025726
  */
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
