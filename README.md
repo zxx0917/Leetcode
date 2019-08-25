@@ -16,6 +16,7 @@
 - [滑动窗口](https://github.com/JuiceZhou/Leetcode/tree/master/java/slidingwindow)
 - [位运算](https://github.com/JuiceZhou/Leetcode/tree/master/java/bit)
 - [深度优先遍历](https://github.com/JuiceZhou/Leetcode/tree/master/java/dfs)
+- [数据库](https://github.com/JuiceZhou/Leetcode/tree/master/java/sql)
 ## 按题号 ##
 - [1.Two Sum](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%241_TwoSum.java)
 - [2.Add Two Numbers](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/$2_Add%20Two%20Numbers.java)
@@ -126,6 +127,9 @@
 - [163.Missing Ranges](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/$163_MissingRanges.java)
 - [170.TwoSum III](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24170_TwoSumIII.java)
 - [173. Binary Search Tree Iterator](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24173_BinarySearchTreeIterator.java)
+- [175.Combine Two Tables](https://github.com/JuiceZhou/Leetcode/blob/master/java/sql/175.%20Combine%20Two%20Tables.txt)
+- [176.Second 20Highest Salary](https://github.com/JuiceZhou/Leetcode/blob/master/java/sql/176.%20Second%20Highest%20Salary.txt)
+- [177. Nth Highest Salary](https://github.com/JuiceZhou/Leetcode/blob/master/java/sql/177.%20Nth%20Highest%20Salary.txt)
 - [187.Repeated DNA Sequences](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%24187_RepeatedDNASequences.java)
 - [190.ReverseBits](https://github.com/JuiceZhou/Leetcode/blob/master/java/bit/%24190_ReverseBits.java)
 - [191.Number Of 1 Bits](https://github.com/JuiceZhou/Leetcode/blob/master/java/bit/%24191_NumberOf1Bits.java)
