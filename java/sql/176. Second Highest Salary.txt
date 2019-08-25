@@ -1,0 +1,24 @@
+#1.因为如果没有第二高的薪水时需要返回NULL，所以需要使用ifnull(exp1,exp2)，exp1指代需要判断是否为空的字段名，exp2为指定字段为空时的返回指
+#2.因为薪水可能相同，所以需要使用DISTINCT去重
+#3.select '字符串';可以直接显示数据，selct '字符串' as '别名';可以修改返回字符串的别名
+#如SELECT '200' as 'money';结果为：
++--------+
+| money |
++--------+
+| 200   |
++--------+
+
+SELECT
+	IFNULL(
+		(
+			SELECT DISTINCT
+				Salary
+			FROM
+				Employee
+			ORDER BY
+				Salary DESC
+			LIMIT 1,
+			1
+		),
+		NULL
+	) AS 'SecondHighestSalary';
