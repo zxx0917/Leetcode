@@ -1,0 +1,28 @@
+#和176题使用同样的方法：先排序，后Limit选择指定顺序的记录。因为Limit的第一个参数表示开始的行号，默认为0，所以挑选第N名需要传入N-1
+#注意SQL中变量不能作为表达式放入SQL中，否则会报错，所以需要在开始时使用set来重新定义局部变量N
+
+
+CREATE FUNCTION getNthHighestSalary (N INT) RETURNS INT
+BEGIN
+
+SET N = N - 1;
+
+RETURN (
+	SELECT
+		ifnull(
+			(
+				SELECT DISTINCT
+					Salary
+				FROM
+					Employee
+				ORDER BY
+					Salary DESC
+				LIMIT N,
+				1
+			),
+			NULL
+		)
+);
+
+
+END
