@@ -1,0 +1,17 @@
+
+#方法1：使用Not in，将订购过的CustomerId排出即可
+SELECT
+	NAME Customers
+FROM
+	Customers
+WHERE
+	id NOT IN (SELECT CustomerId FROM Orders);
+
+#方法2：使用左连接，没有关联行的记录就是未订购的人
+SELECT
+	c. NAME Customers
+FROM
+	customers c
+LEFT JOIN orders o ON c.id = o.CustomerId
+WHERE
+	o.customerId IS NULL;
