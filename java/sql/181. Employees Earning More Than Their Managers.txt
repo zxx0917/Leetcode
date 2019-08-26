@@ -1,0 +1,9 @@
+#表的自连接，首先内连接得到雇员和对应经理的信息，然后在此基础上进行筛选
+
+SELECT
+	e1.NAME Employee
+FROM
+	employee e1
+INNER JOIN employee e2 ON e1.ManagerId = e2.id
+WHERE
+	e1.salary > e2.salary
