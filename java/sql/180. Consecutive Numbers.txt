@@ -1,0 +1,13 @@
+#因为要选择至少连续三次的相同数字，如果他们连续id一定也是连续的，所以自连接三次，获取对应的结果
+#这里注意要使用distinct来去重，因为一个数字有可能出现超过三次，则会出现多次结果
+SELECT DISTINCT
+	l1.num ConsecutiveNums
+FROM
+	LOGS l1,
+	LOGS l2,
+	LOGS l3
+WHERE
+	l1.id = l2.id - 1
+AND l2.id = l3.id - 1
+AND l1.num = l2.num
+AND l2.num = l3.num
