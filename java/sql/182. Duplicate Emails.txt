@@ -1,0 +1,10 @@
+#简单的Group by和having应用
+
+SELECT
+	Email
+FROM
+	Person
+GROUP BY
+	Email
+HAVING
+	count(Email) > 1
