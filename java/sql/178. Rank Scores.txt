@@ -1,0 +1,30 @@
+#找出当前所有的非重复分数，然后比较大于等于当前分数的个数，这样就是对应分数的排名。
+#如90,80,75，对于75，大于等于75的分数有3个，所以75分是第三名
+SELECT
+	a1.Score,
+	(
+		SELECT
+			count(DISTINCT score)
+		FROM
+			scores b1
+		WHERE
+			b1.score >= a.score
+	) AS Rank
+FROM
+	scores a1
+ORDER BY
+	a1.Score DESC;
+
+#自连接：自己和自己连接，筛选条件是b.score>=a.score，和上面分析的一样，来获取对应的排名
+SELECT
+	a.Score,
+	count(DISTINCT b.score) rank
+FROM
+	scores a,
+	scores b
+WHERE
+	b.score >= a.score
+GROUP BY
+	a.id #按照id分组，否则只能输出一个值
+ORDER BY
+	a.score DESC;
