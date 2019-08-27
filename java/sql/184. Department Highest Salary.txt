@@ -1,0 +1,24 @@
+#当子查询返回多行多列时，可以在外层查询的条件中使用(列名1,列名2...) in (子查询) ，条件中的列名要和子查询中返回的表的列的数据类型一致。
+#1.内连接Employee和Department，根据DepartmentId分组，然后使用聚合函数求出每个部门的最大值和对应的DepartmentId
+#2.然后根据上述的子表对Employee和Department的内连接结果进行筛选（因为最后结果需要求出Department的名称），即对应的(departmentid,salary) in 子表
+SELECT
+	d. NAME Department,
+	e. NAME Employee,
+	e.Salary
+FROM
+	Employee e,
+	Department d
+WHERE
+	e.DepartmentId = d.Id
+AND (e.DepartmentId, e.Salary) IN (
+	SELECT
+		e.departmentId,
+		max(e.salary) salary
+	FROM
+		employee e,
+		Department d
+	WHERE
+		e.DepartmentId = d.Id
+	GROUP BY
+		e.DepartmentId
+);
