@@ -1,0 +1,27 @@
+#结合第178题，首先自连接得到每个部门中每个成员的排名
+#然后将这个自连接结果作为子表，和Department表进行内连接，得到每个部门前三名的员工信息和对应部门信息
+#最后再将结果按照部门和工资排序
+SELECT
+	d. NAME Department,
+	tab1. NAME Employee,
+	tab1.Salary
+FROM
+	(
+		SELECT
+			e1. NAME,
+			e1.Salary,
+			e1.DepartmentId,
+			count(DISTINCT e2.Salary) AS r
+		FROM
+			employee e1,
+			employee e2
+		WHERE
+			e1.DepartmentId = e2.DepartmentId
+		AND e2.Salary >= e1.Salary
+		GROUP BY
+			e1.Id
+	) tab1,
+	department d
+WHERE
+	d.id = tab1.DepartmentId
+AND tab1.r <= 3;
