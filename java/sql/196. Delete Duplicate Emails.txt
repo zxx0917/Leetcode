@@ -1,0 +1,19 @@
+#删除记录时需要规定id的范围，可以分组查询出相同Email的最小值id，然后不在这个id范围内的记录就需要删除
+DELETE
+FROM
+	person
+WHERE
+	id NOT IN (#删去不在最小id范围内的记录
+		SELECT
+			id
+		FROM
+			(
+				SELECT  #根据Email分组得到每组的最小id
+					MIN(id) AS id
+				FROM
+					person
+				GROUP BY
+					Email
+			) AS tab1 #需要创建临时表，否则会报错
+	)
+
