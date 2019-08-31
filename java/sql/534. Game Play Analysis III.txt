@@ -1,0 +1,16 @@
+#自连接，每个id相同且event_date小于等于现在时间的记录与现在的记录拼接，累加games_played即可
+#注意这里的group by条件，player_id和event_date才能区别一组
+
+SELECT
+	a1.player_id,
+	a1.event_date,
+	sum(a2.games_played) AS games_played_so_far
+FROM
+	Activity a1,
+	Activity a2
+WHERE
+	a1.player_id = a2.player_id
+AND a2.event_date <= a1.event_date
+GROUP BY
+	a1.player_id,
+	a1.event_date;
