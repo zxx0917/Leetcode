@@ -1,0 +1,16 @@
+#首先查询出每个用户第一个登陆的时间和对应的id，然后将这两个字段作为组合键进行子查询
+SELECT
+	a.player_id,
+	a.device_id
+FROM
+	Activity a
+WHERE
+	(player_id, event_date) IN (
+		SELECT
+			a.player_id,
+			min(a.event_date) first_login
+		FROM
+			Activity a
+		GROUP BY
+			a.player_id
+	);
