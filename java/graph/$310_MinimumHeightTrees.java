@@ -13,7 +13,8 @@ class Solution {
             return res;
         }
 
-        //构造邻接矩阵
+        //构造邻接矩阵。注意，因为这里每次修改的节点都是叶子节点，只有一个邻接点，所以可以使用Set，如果有多个邻接点，则不能用Set
+        //因为Set不能边遍历边修改，会报ConcurrentModificationException
         Set<Integer>[] graph = new Set[n];
         //初始化
         for(int i = 0;i < n;i++){
