@@ -11,6 +11,7 @@ public class $1_TwoSum {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             //先判定，再加入
+            //为什么不能先加入再判定呢，比如target为8，如果数组中只有一个4，则会出现误判
             if (map.containsKey(target - nums[i])){
                 return new int[]{map.get(target - nums[i]), i};
             }
