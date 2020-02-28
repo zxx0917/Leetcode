@@ -414,3 +414,5 @@
 - [1099.Two Sum Less Than K](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%241099_TwoSumLessThanK.java)
 - [1119.Remove Vowels from a String](https://github.com/JuiceZhou/Leetcode/blob/master/java/string/%241119_RemoveVowelsfromAString.java)
 - [1120.Maximum Average Subtree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%241120_MaximumAverageSubtree.java)
+- [1198.Find Smallest Common Element In All Rows](https://github.com/JuiceZhou/Leetcode/blob/master/java/binarysearch/%241198_FindSmallestCommonElementInAllRows.java)
+- [1351.Count Negative Numbers In A Sorted Matrix](https://github.com/JuiceZhou/Leetcode/blob/master/java/binarysearch/%241351_CountNegativeNumbersInASortedMatrix.java)
