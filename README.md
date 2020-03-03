@@ -46,6 +46,7 @@
 - [32.Longest Valid Parentheses](https://github.com/JuiceZhou/Leetcode/blob/master/java/dp/%2432_LongestValidParentheses.java)
 - [33.Searching Rotated Sorted Array](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2433_SearchinRotatedSortedArray.java)
 - [34.Find First and Last Position of Elementin Sorted Array](https://github.com/JuiceZhou/Leetcode/blob/master/java/array/%2434_FindFirstandLastPositionofElementinSortedArray.java)
+- [35.Search Insert Position](https://github.com/JuiceZhou/Leetcode/blob/master/java/binarysearch/%2435_SearchInsertPosition.java)
 - [36.Valid Sudoku](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%2436_ValidSudoku.java)
 - [37.Sudoku Solver](https://github.com/JuiceZhou/Leetcode/blob/master/java/hashmap/%2437_SudokuSolver.java)
 - [38.Count and Say](https://github.com/JuiceZhou/Leetcode/blob/master/java/string/%2438_CountAndSay.java)
