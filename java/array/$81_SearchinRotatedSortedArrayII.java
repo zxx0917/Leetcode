@@ -3,6 +3,7 @@ package array;
 /*
  *首先找出旋转数组的分界点，然后根据target在前后哪个数组进行二分查找
  *只是要注意该数组有重复元素，分界点可能位于重复元素中，使得分界点前后两个数组不是升序的，所以需要先除去后端可能存在的重复元
+ *如[3,3,3,0,1,2,3,3]的分界点在3中，所以需要将右边的重复3除去，得到方便计算，变为【3,3,3,0,1,2】
  */
 public class $81_SearchinRotatedSortedArrayII {
     public boolean search(int[] nums, int target) {
