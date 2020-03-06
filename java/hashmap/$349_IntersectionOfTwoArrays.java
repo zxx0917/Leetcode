@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * 因为两个数组都可能存在重复值而结果不要求重复值，所以先使用两个Set分别储存两个数组的元素，
- * 然后再遍历一个Set中的元素是否存在于另一个Set，如果存在则是交集元素
+ * 然后使用Set的retainAll()方法求出交集，最后将元素放入数组即可
  */
 public class $349_IntersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
