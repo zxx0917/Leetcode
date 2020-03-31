@@ -12,10 +12,10 @@ public class $101_SymmetricTree {
 
     private boolean helper(TreeNode left, TreeNode right) {
         if(left == null && right == null) return true;
-        //左右节点有值且不等
-        if(left != null && right != null && left.val != right.val) return false;
         //左右节点有一个为Null
         if(left == null || right == null) return false;
+        //左右节点值不相等，返回false
+        if(left.val != right.val) return false;
         return helper(left.left,right.right) && helper(left.right,right.left);
     }
 }

@@ -26,9 +26,9 @@ public class $501_FindModeInBinarySearchTree {
         private void helper(TreeNode root, List<Integer> res) {
             if (root == null) return;
             helper(root.left, res);
-            //如果是第一个元素
+            //如果不是第一个元素
             if (pre != null) {
-                //如果当前元素和前一个元素相同，则累加计数器，并判断是否是最大出现次数；不过不相等则将计数器重置
+                //如果当前元素和前一个元素相同，则累加计数器，并判断是否是最大出现次数；如果不相等则将计数器重置
                 count = pre.val == root.val ? count + 1 : 1;
             }
             if (count > maxCount) {

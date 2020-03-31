@@ -2,6 +2,8 @@ package array;
 
 /**
  * 本题所有矩阵元素是升序的，所以可以直接对所有元素进行二分查找，时间复杂度为O(log(m*n))
+ * 即把二维数组(m行n列)看做是一维数组进行搜索，数组的起始索引是0，末尾索引为m*n-1
+ * 如果计算出中间元素的索引为Mid，则换算成二维数组，在第mid/n行，第mid%n列
  */
 public class $74_SearchA2DMatrix {
     public boolean searchMatrix(int[][] nums, int target) {
