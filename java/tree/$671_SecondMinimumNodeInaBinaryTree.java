@@ -14,12 +14,13 @@ class Solution {
 
     private void helper(TreeNode root) {
         if (root == null) return;
-        //判断当前节点
+        //判断当前节点，如果最小值大于当前节点，则更新secondmin和min
         if (min > root.val) {
             //注意需要保留原来的最小节点
             secondMin = min;
             min = root.val;
-        } else if (min != root.val && secondMin > root.val) {
+        } else if (min != root.val && secondMin > root.val) {//如果min小于当前值且secondmin大于当前值，则更新secondmin
+            //这里要注意当min等于当前值时，secondMin不需要更新
             secondMin = root.val;
         }
         helper(root.left);
