@@ -93,6 +93,8 @@
 - [102.Binary Tree Level Order Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24102_BinaryTreeLevelOrderTraversal.java)
 - [103.Binary Tree Zigzag Level Order Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24103_BinaryTreeZigzagLevelOrderTraversal.java)
 - [104. Maximum Depth of Binary Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24104_MaximumDepthOfBinaryTree.java)
+- [105.Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24105_ConstructBinaryTreefromPreorderandInorderTraversal.java)
+- [106.Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24106_ConstructBinaryTreefromInorderandPostorderTraversal.java)
 - [107. Binary Tree Level Order Traversal II](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24107_BinaryTreeLevelOrderTraversalII.java)
 - [108. Convert Sorted Array to Binary Search Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24108_ConvertSortedArrayToBinarySearchTree.java)
 - [109.Convert Sorted List to Binary Search Tree](https://github.com/JuiceZhou/Leetcode/blob/master/java/linkedlist/%24109_ConvertSortedListtoBinarySearchTree.java)
