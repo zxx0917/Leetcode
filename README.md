@@ -26,6 +26,7 @@
 - [4.Median of Two Sorted Arrays](https://github.com/JuiceZhou/Leetcode/blob/master/java/binarysearch/%244_MedianOfTwoSortedArrays.java)
 - [5.Longest Palindromic Substring](https://github.com/JuiceZhou/Leetcode/blob/master/java/dp/$5_LongestPalindromicSubstring.java)
 - [7.Reverse Integer](https://github.com/JuiceZhou/Leetcode/blob/master/java/bit/%247_ReverseInteger.java)
+- [8.String to Integer](https://github.com/JuiceZhou/Leetcode/blob/master/java/string/%248_StringToInteger.java)
 - [9.Palindrome Number](https://github.com/JuiceZhou/Leetcode/blob/master/java/string/%249_PalindromeNumber.java)
 - [10.Regular Expression Matching](https://github.com/JuiceZhou/Leetcode/blob/master/java/dp/%2410_RegularExpressionMatching.java)
 - [12.Integer to Roman](https://github.com/JuiceZhou/Leetcode/blob/master/java/string/%2412_IntegerToRoman.java)
