@@ -4,7 +4,7 @@ class Solution {
         String reps[] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < values.length; i++) {
-            while (num > values[i]) {
+            while (num >= values[i]) {
                 sb.append(reps[i]);
                 num -= values[i];
             }
