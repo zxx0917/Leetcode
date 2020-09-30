@@ -24,10 +24,6 @@ public class $154_FindMinimuminRotatedSortedArrayII {
             }
         }
 
-        //3.比较两个数组的第一个元素
-        if (left == 0)
-            return nums[0];
-        else
-            return Math.min(nums[0], nums[left]);
+        return nums[left]; 
     }
 }
